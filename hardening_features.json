@@ -1,0 +1,629 @@
+{
+    "features": {
+        "fsm_hint": {
+            "Stratix10": [
+                "add_fsm"
+            ],
+            "Arria10": [
+                "add_fsm"
+            ],
+            "AgileX": [
+                "add_fsm"
+            ],
+            "Virtex7": [
+                "add_fsm_encoding"
+            ]
+        },
+        "srl": {
+            "Virtex7": [
+                "*SRLC??E",
+                "*SRL??E"
+            ]
+        },
+        "aload_1": {
+            "Stratix10": [
+                "*_emulated *"
+            ],
+            "Arria10": [
+                "*_emulated *"
+            ],
+            "AgileX": [
+                "*_emulated *"
+            ],
+            "CycloneV": [
+                "*_emulated *"
+            ],
+            "Max10": [
+                "*_emulated *"
+            ],
+            "Virtex7": [
+                "*_C/Q",
+                "*_C /Q"
+            ]
+        },
+        "dup_vivado": {
+            "Virtex7": [
+                "*replica*"
+            ]
+        },
+        "dsp_cells": {
+            "Stratix10": [
+                "fourteennm_mac_encrypted*"
+            ],
+            "Arria10": [
+                "twentynm_mac_encrypted*"
+            ],
+            "AgileX": [
+                "tennm_mac*"
+            ],
+            "CycloneV": [
+                "cyclonev_mac_encrypted*"
+            ],
+            "Max10": [
+                "fiftyfivenm_mac_mult_internal*"
+            ],
+            "Virtex7": [
+                "DSP48E*"
+            ],
+            "Polarfire": [
+                "*MACC_PA_COMB*"
+            ],
+            "PolarfireSoc": [
+                "*MACC_PA_COMB*"
+            ]
+        },
+        "aload_2": {
+            "Stratix10": [
+                "*_combout *"
+            ],
+            "Arria10": [
+                "*_combout *"
+            ],
+            "AgileX": [
+                "*_combout *"
+            ],
+            "CycloneV": [
+                "*_combout *"
+            ],
+            "Max10": [
+                "*_combout *"
+            ],
+            "Virtex7": [
+                "*_LDC/Q",
+                "*_LDC /Q"
+            ]
+        },
+        "ram_block": {
+            "Stratix10": [
+                "fourteennm_ram_block*"
+            ],
+            "Arria10": [
+                "twentynm_ram_block*"
+            ],
+            "AgileX": [
+                "tennm_ram_block*"
+            ],
+            "CycloneV": [
+                "cyclonev_ram_block*"
+            ],
+            "Max10": [
+                "fiftyfivenm_ram_block*"
+            ],
+            "Virtex7": [
+                "*RAMB??E?*"
+            ],
+            "Kintex7": [
+                "*RAMB??E?*"
+            ],
+            "Polarfire": [
+                "RAM1K20_IP*"
+            ],
+            "PolarfireSoc": [
+                "RAM1K20_IP*"
+            ]
+        },
+        "distributed_ram": {
+            "Stratix10": [
+                "fourteennm_mlab_cell*"
+            ],
+            "Arria10": [
+                "twentynm_mlab_cell*"
+            ],
+            "AgileX": [
+                "tennm_mlab_cell*"
+            ],
+            "CycloneV": [
+                "twentyeightnm_mlab_cell*"
+            ],
+            "Virtex7": [
+                "*RAM??M*",
+                "*RAM??X1*",
+                "*RAM???X1*"
+            ],
+            "Kintex7": [
+                "*RAM??M*",
+                "*RAM??X1*",
+                "*RAM???X1*"
+            ]
+        },
+        "synchronous_ram": {
+            "Stratix10": [
+                "synchronous_ram*"
+            ],
+            "Arria10": [
+                "synchronous_ram*"
+            ],
+            "AgileX": [
+                "synchronous_ram*"
+            ]
+        },
+        "syn_log": {
+            "Stratix10": [
+                "syn.rpt"
+            ],
+            "Arria10": [
+                "syn.rpt"
+            ],
+            "AgileX": [
+                "syn.rpt"
+            ],
+            "CycloneV": [
+                "map.rpt"
+            ],
+            "Max10": [
+                "map.rpt"
+            ]
+        },
+        "aload_3": {
+            "Virtex7": [
+                "*_P/Q",
+                "*_P /Q"
+            ]
+        },
+        "ram_packing_data_input": {
+            "Virtex7": [
+                "*DIN_?_reg"
+            ]
+        },
+        "srl2ram_hint": {
+            "Stratix10": [
+                "add_srl_to_ram"
+            ],
+            "Arria10": [
+                "add_srl_to_ram"
+            ],
+            "AgileX": [
+                "add_srl_to_ram"
+            ],
+            "Virtex7": [
+                "add_srl_to_ram"
+            ]
+        },
+        "dsp_pack_output": {
+            "Stratix10": [
+                "* *result?_reg_bank*"
+            ],
+            "Arria10": [
+                "* /*/result?_reg_*"
+            ],
+            "AgileX": [
+                "* *result?_reg_bank*"
+            ],
+            "CycloneV": [
+                "* /*/result?_reg_*/*"
+            ],
+            "Max10": [
+                "* /idataout_reg*"
+            ],
+            "Virtex7": [
+                "*qp_o_reg1"
+            ],
+            "Polarfire": [
+                "*u_preg/PIPELINE*"
+            ],
+            "PolarfireSoc": [
+                "*u_preg/PIPELINE*"
+            ]
+        },
+        "dup_place": {
+            "Stratix10": [
+                "*Duplicate*"
+            ],
+            "Arria10": [
+                "*Duplicate*"
+            ],
+            "AgileX": [
+                "*Duplicate*"
+            ],
+            "CycloneV": [
+                "*Duplicate*"
+            ],
+            "Max10": [
+                "*Duplicate*"
+            ]
+        },
+        "dsp_m18_full": {
+            "Stratix10": [
+                "*operation_modem18x18_full*"
+            ],
+            "Arria10": [
+                "*operation_modem18x18_full*"
+            ],
+            "AgileX": [
+                "*operation_modem18x18_full*"
+            ]
+        },
+        "ram_packing_second": {
+            "Stratix10": [
+                "*port?dataout_no_forward"
+            ],
+            "Arria10": [
+                "*port?dataout"
+            ],
+            "AgileX": [
+                "*port?dataout_no_forward"
+            ],
+            "CycloneV": [
+                "*port?dataout"
+            ],
+            "Max10": [
+                "*port?dataout"
+            ],
+            "Virtex7": [
+                "*do?_outreg"
+            ]
+        },
+        "ultra_ram": {
+            "Virtex7": [
+                "*URAM288*"
+            ],
+            "VirtexUltrascale+": [
+                "*URAM288*"
+            ],
+            "Polarfire": [
+                "*RAM64x12_IP*"
+            ],
+            "PolarfireSoc": [
+                "*RAM64x12_IP*"
+            ]
+        },
+        "tristate": {
+            "Stratix10": [
+                "TRI"
+            ],
+            "Arria10": [
+                "TRI"
+            ],
+            "AgileX": [
+                "TRI"
+            ],
+            "CycloneV": [
+                "cyclonev_io_obuf*"
+            ],
+            "Max10": [
+                "fiftyfivenm_io_obuf*"
+            ],
+            "Virtex7": [
+                "OBUFT"
+            ],
+            "Kintex7": [
+                "OBUFT"
+            ]
+        },
+        "address_begin": {
+            "Stratix10": [
+                "port_a_first_address"
+            ],
+            "Arria10": [
+                "port_a_first_address"
+            ],
+            "AgileX": [
+                "port_a_first_address"
+            ],
+            "CycloneV": [
+                "port_a_first_address"
+            ],
+            "Max10": [
+                "port_a_first_address"
+            ],
+            "Virtex7": [
+                "ram_addr_begin"
+            ],
+            "Kintex7": [
+                "ram_addr_begin"
+            ]
+        },
+        "dup_syn": {
+            "Stratix10": [
+                "*SynDup*"
+            ],
+            "Arria10": [
+                "*SynDup*"
+            ],
+            "AgileX": [
+                "*SynDup*"
+            ],
+            "CycloneV": [
+                "*SynDup*"
+            ],
+            "Max10": [
+                "*SynDup*"
+            ]
+        },
+        "dsp_m18_sum2": {
+            "Stratix10": [
+                "*operation_modem18x18_sumof2*"
+            ],
+            "Arria10": [
+                "*operation_modem18x18_sumof2*"
+            ],
+            "AgileX": [
+                "*operation_modem18x18_sumof2*"
+            ]
+        },
+        "bypass_hint_file": {
+            "Stratix10": [
+                "verification/synthesized/root_partition_onespin_setup_hints.tcl"
+            ],
+            "Arria10": [
+                "verification/synthesized/root_partition_onespin_setup_hints.tcl"
+            ],
+            "AgileX": [
+                "verification/synthesized/root_partition_onespin_setup_hints.tcl"
+            ]
+        },
+        "ram_packing_first": {
+            "Stratix10": [
+                "*port?dataoutReg"
+            ],
+            "Arria10": [
+                "*port?dataoutReg"
+            ],
+            "AgileX": [
+                "*port?dataoutReg"
+            ],
+            "CycloneV": [
+                "*port?dataoutReg"
+            ],
+            "Max10": [
+                "*port?dataoutReg"
+            ],
+            "Virtex7": [
+                "*do?_out"
+            ]
+        },
+        "bypass_hint": {
+            "Stratix10": [
+                "add_bypass"
+            ],
+            "Arria10": [
+                "add_bypass"
+            ],
+            "AgileX": [
+                "add_bypass"
+            ]
+        },
+        "srl2ram_hint_file": {
+            "Stratix10": [
+                "verification/synthesized/root_partition_onespin_hints.tcl"
+            ],
+            "Arria10": [
+                "verification/synthesized/root_partition_onespin_hints.tcl"
+            ],
+            "AgileX": [
+                "verification/synthesized/root_partition_onespin_hints.tcl"
+            ],
+            "Virtex7": [
+                "synth_hints.os"
+            ]
+        },
+        "latch": {
+            "Stratix10": [
+                "dlatchen"
+            ],
+            "Arria10": [
+                "dlatchen"
+            ],
+            "AgileX": [
+                "dlatchen"
+            ],
+            "CycloneV": [
+                "*combout "
+            ],
+            "Max10": [
+                "*combout "
+            ],
+            "Virtex7": [
+                "LDCE*"
+            ]
+        },
+        "unnamed_instance": {
+            "Stratix10": [
+                "*unnamed_instance_*"
+            ],
+            "Arria10": [
+                "*unnamed_instance_*"
+            ],
+            "AgileX": [
+                "*unnamed_instance_*"
+            ],
+            "CycloneV": [
+                "*comb_*"
+            ],
+            "Max10": [
+                "*comb_*"
+            ],
+            "Virtex7": [
+                "*nolabel_line*"
+            ],
+            "Kintex7": [
+                "*nolabel_line*"
+            ]
+        },
+        "dsp_m27": {
+            "Stratix10": [
+                "*operation_modem27x27*"
+            ],
+            "Arria10": [
+                "*operation_modem27x27*"
+            ],
+            "AgileX": [
+                "*operation_modem27x27*"
+            ]
+        },
+        "dsp_pack_input": {
+            "Stratix10": [
+                "* *input_?_reg_bank/?_bank*"
+            ],
+            "Arria10": [
+                "* /*/data_?_bank/?_bank/*"
+            ],
+            "AgileX": [
+                "* *input_?_reg_bank/?_bank*"
+            ],
+            "CycloneV": [
+                "* /*/data_?_bank/?_bank/*"
+            ],
+            "Max10": [
+                "* /data?_reg/*"
+            ],
+            "Virtex7": [
+                "*qa_o_reg?"
+            ],
+            "Polarfire": [
+                "*u_areg/PIPELINE*"
+            ],
+            "PolarfireSoc": [
+                "*u_areg/PIPELINE*"
+            ]
+        },
+        "dsp_unpack_reg": {
+            "Stratix10": [
+                "*~macREG_UNPACK*"
+            ]
+        },
+        "merged_state_hint_file": {
+            "Virtex7": [
+                "synth_hints.os"
+            ]
+        },
+        "dsp_m18_systolic": {
+            "Stratix10": [
+                "*operation_modem18x18_systolic*"
+            ],
+            "Arria10": [
+                "*operation_modem18x18_systolic*"
+            ],
+            "AgileX": [
+                "*operation_modem18x18_systolic*"
+            ]
+        },
+        "merged_state_hint": {
+            "Virtex7": [
+                "add_merged_states"
+            ]
+        },
+        "fsm": {
+            "Virtex7": [
+                "*FSM_onehot_*"
+            ],
+            "Kintex7": [
+                "*FSM_sequential_*"
+            ]
+        },
+        "dsp_pack_inp_pl": {
+            "Stratix10": [
+                "* *input_?_pl?_reg_bank/?_bank*"
+            ],
+            "Arria10": [
+                "* /*/??_pl_reg_*/*"
+            ],
+            "AgileX": [
+                "* *input_?_pl?_reg_bank/?_bank*"
+            ],
+            "Polarfire": [
+                "*u_breg/PIPELINE*"
+            ],
+            "PolarfireSoc": [
+                "*u_breg/PIPELINE*"
+            ]
+        },
+        "bufr": {
+            "Virtex7": [
+                "BUFR*"
+            ]
+        },
+        "fsm_hint_file": {
+            "Stratix10": [
+                "verification/elaborated/root_partition_onespin_hints.tcl"
+            ],
+            "Arria10": [
+                "verification/elaborated/root_partition_onespin_hints.tcl"
+            ],
+            "AgileX": [
+                "verification/elaborated/root_partition_onespin_hints.tcl"
+            ],
+            "Virtex7": [
+                "synth_hints.os"
+            ]
+        },
+        "mlab_packing_first": {
+            "Stratix10": [
+                "*dataout_reg*"
+            ],
+            "Arria10": [
+                "*dataout_reg*"
+            ],
+            "AgileX": [
+                "*dataout_reg*"
+            ],
+            "CycloneV": [
+                "*dataout_reg*"
+            ]
+        },
+        "dup_route": {
+            "Stratix10": [
+                "*DUPLICATE*"
+            ],
+            "Arria10": [
+                "*DUPLICATE*"
+            ],
+            "AgileX": [
+                "*DUPLICATE*"
+            ],
+            "CycloneV": [
+                "*DUPLICATE*"
+            ],
+            "Max10": [
+                "*DUPLICATE*"
+            ]
+        },
+        "dsp_m18_plus": {
+            "Stratix10": [
+                "*operation_modem18x18_plus36*"
+            ],
+            "Arria10": [
+                "*operation_modem18x18_plus36*"
+            ],
+            "AgileX": [
+                "*operation_modem18x18_plus36*"
+            ]
+        },
+        "dsp_sign_ext": {
+            "Stratix10": [
+                "*~mac /*/input_a*_reg_bank/x_bank*",
+                "*~mac /*/input_a*_reg_bank/y_bank*"
+            ],
+            "Arria10": [
+                "*~mac /*/ax_pl_reg_*/*",
+                "*~mac /*/ay_pl_reg_*/*",
+                "*~mac /*/data_a_bank/x_bank/*",
+                "*~mac /*/data_a_bank/y_bank/*"
+            ],
+            "AgileX": [
+                "*~mac /*/input_a*_reg_bank/x_bank*",
+                "*~mac /*/input_a*_reg_bank/y_bank*"
+            ]
+        }
+    }
+}
